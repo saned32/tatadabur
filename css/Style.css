@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'GE SS Unique Bold';
+    src: url('https://www.fontsaddict.com/fontface/ge-ss-unique-bold.otf');
+  }
+:root{
+    --black-color: #1a1a1b;
+    --bold-lead-color: #7a7a7a;
+    --light-lead-color: #f3f3f3;
+
+    --main-transition: 0.3s;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+::selection{
+    background-color: var(--light-lead-color);
+    color: var(--bold-lead-color);
+  }
+
+ body{
+    background-image: url(../image/5.jpg);
+    background-size: contain;
+}
+/*
+.landing{
+    background-image: url(../image/Layer\ 3.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+} */
+
+.myimg{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.link button{
+    background-color: #cdae5f !important;
+    color: white !important;
+    padding: 7px 20px !important;
+    border-radius: 20px !important;
+    border: none;
+}
+
+.link button:hover{
+    background-color: #0d5a39 !important;
+    color: #cdae5f !important;
+}
+
+.forms{
+    direction: rtl;
+}
+
+
+
+.text1{
+    color: #0d5a39;
+}
+
+.watts{
+color: #d3bd82 ;
+font-weight: bold;
+}
+
+
+.mylinks a{
+    color: #d3bd82 ;
+}
+.mylinks a:hover{
+color: #0d5a39;
+}
+
+body .footer{
+    color: #0d5a39;
+    margin-top: 160px;
+}
+
+.main{
+    background-image: url(../image/Layer\ 3.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 50%;
+}
+
+@media (min-width : 1282px ) {
+    .main{
+        background-size: 30%;
+    }
+}
+
+@media (max-width : 1280px ) {
+    .main{
+        background-size: 30%;
+    }
+}
+
+@media (max-width : 950px ) {
+    body .footer{
+        margin-top: 370px;
+    }
+}
+
+@media (max-width : 820px ) {
+    body .footer{
+        margin-top: 220px;
+    }
+
+    .main{
+        background-size: 40%;
+    }
+}
+
+@media (max-width : 770px ) {
+    body .footer{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width : 415px ) {
+    body .footer{
+        margin-top: 170px;
+    }
+}
+
+@media (max-width : 410px ) {
+    body .footer{
+        margin-top: 130px;
+    }
+}
+
+@media (max-width : 360px ) {
+    body .footer{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+
+  }
+  @media (max-width: 720px) {
+ .form {
+      flex-basis: 100%;
+    }
+  }
+.form .input {
+    display: block;
+    width: 130%;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+    caret-color: #cdae5f;
+  }
+
+  .form .input:hover {
+    border-bottom: 1px solid #0d5a39;
+  }
+
+  @media (min-width:1024px) {
+    .form .input {
+         width: 180%;
+       }
+     }
+   
+     @media (min-width:1026px) {
+       .form .input {
+         width: 190%;
+       }
+     }
+
+  @media (max-width:912px) {
+    .form .input {
+      width: 150%;
+    }
+  }
+
+  @media (max-width:405px) {
+    .form .input {
+      width: 130%;
+    }
+  }
+
+  @media (max-width:350px) {
+    .form .input {
+      width: 110%;
+    }
+  }
+
+  @media (max-width:280px) {
+ .form .input {
+      width: 90%;
+    }
+  }
+
+
+
+
+
+
+
+ .form textarea.input {
+    height: 100px;
+  }
+
+  .form .input:focus {
+    outline: none;
+  }
+
+
+ .content {
+    padding: 0 20px;
+  }
+
+  .modal-title{
+    text-align: center;
+    direction: rtl;
+  }
